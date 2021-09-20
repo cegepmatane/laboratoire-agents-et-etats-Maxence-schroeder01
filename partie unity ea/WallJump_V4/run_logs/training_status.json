@@ -1,0 +1,51 @@
+{
+    "SmallWallJump": {
+        "checkpoints": [
+            {
+                "steps": 34269,
+                "file_path": "results\\WallJump_V4\\SmallWallJump\\SmallWallJump-34269.onnx",
+                "reward": 0.4505999994027661,
+                "creation_time": 1632176013.8510792,
+                "auxillary_file_paths": [
+                    "results\\WallJump_V4\\SmallWallJump\\SmallWallJump-34269.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 34269,
+            "file_path": "results\\WallJump_V4\\SmallWallJump.onnx",
+            "reward": 0.4505999994027661,
+            "creation_time": 1632176013.8510792,
+            "auxillary_file_paths": [
+                "results\\WallJump_V4\\SmallWallJump\\SmallWallJump-34269.pt"
+            ]
+        }
+    },
+    "BigWallJump": {
+        "checkpoints": [
+            {
+                "steps": 158031,
+                "file_path": "results\\WallJump_V4\\BigWallJump\\BigWallJump-158031.onnx",
+                "reward": -1.1622500407199066,
+                "creation_time": 1632176014.2018127,
+                "auxillary_file_paths": [
+                    "results\\WallJump_V4\\BigWallJump\\BigWallJump-158031.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 158031,
+            "file_path": "results\\WallJump_V4\\BigWallJump.onnx",
+            "reward": -1.1622500407199066,
+            "creation_time": 1632176014.2018127,
+            "auxillary_file_paths": [
+                "results\\WallJump_V4\\BigWallJump\\BigWallJump-158031.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0.dev0",
+        "torch_version": "1.9.0+cpu"
+    }
+}
